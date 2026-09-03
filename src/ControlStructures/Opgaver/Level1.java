@@ -1,7 +1,8 @@
 package ControlStructures.Opgaver;
 
-
-public class Level1cs {
+public class Level1 {
+    //Concept: https://github.com/Dat1Cphbusiness/WorkingWithControlStructures/blob/main/concepts/level1.md
+    //Assignment: https://github.com/Dat1Cphbusiness/WorkingWithControlStructures/blob/main/assignments/level1.md
 
     void main() {
 
@@ -11,7 +12,8 @@ public class Level1cs {
         if (age >= 18) {
             System.out.println("Du er myndig");
         }
-        */
+         */
+
 
         // Opgave 1.2
         /*
@@ -379,7 +381,7 @@ public class Level1cs {
          */
 
         //Opgave 1.24
-
+        /*
         int score = 75;
         boolean passed;
         if (score >= 60) {
@@ -388,5 +390,6 @@ public class Level1cs {
         else
             passed = false;
         System.out.println("Passed: " + passed);
+         */
     }
 }

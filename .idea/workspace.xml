@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38b54bae-e693-418f-b84f-a8c0a0db1052" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ControlStructures/ControlStructures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ControlStructures/Opgaver/Level1cs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Dat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/ControlStructures/ControlStructures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/ControlStructures/Opgaver/Level1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/DoubleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/DoubleArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/GenderGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/GenderGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Huskeliste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Huskeliste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/MyFirstProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Opgaver/Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Opgaver/Level1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Opgaver/Level2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Opgaver/Level2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Opgaver/Level3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Opgaver/Level3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Opgaver/Level4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Opgaver/Level4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="38b54bae-e693-418f-b84f-a8c0a0db1052" name="Changes" comment="ss" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,10 +87,23 @@
       <option name="presentableId" value="Default" />
       <updated>1788388352353</updated>
     </task>
+    <task id="LOCAL-00001" summary="ss">
+      <option name="closed" value="true" />
+      <created>1788421648362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788421648362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
