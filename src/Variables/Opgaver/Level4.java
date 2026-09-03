@@ -1,4 +1,4 @@
-package Variable.Opgaver;
+package Variables.Opgaver;
 
 public class Level4 {
     //concept: https://github.com/Dat1Cphbusiness/WorkingWithVariables_part1/blob/main/concepts/level4.md

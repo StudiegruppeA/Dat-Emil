@@ -1,4 +1,4 @@
-package Variable;
+package Variables;
 
 public class DoubleArray {
 
