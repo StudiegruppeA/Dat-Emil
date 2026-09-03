@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b54bae-e693-418f-b84f-a8c0a0db1052" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ControlStructures/ControlStructures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ControlStructures/Opgaver/Level1cs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Dat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/ControlStructures/ControlStructures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/ControlStructures/Opgaver/Level1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/DoubleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/DoubleArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/GenderGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/GenderGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Huskeliste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Huskeliste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/MyFirstProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Opgaver/Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Opgaver/Level1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Opgaver/Level2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Opgaver/Level2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Opgaver/Level3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Opgaver/Level3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/Opgaver/Level4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/Opgaver/Level4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Variables/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables/test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControlStructures/Opgaver/Level1cs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlStructures/Opgaver/Level1cs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/EmilMarinovic/Dat.git&quot;,
-    &quot;accountId&quot;: &quot;ceee0b19-209e-4da8-9b3d-9472a8855ef0&quot;
+    &quot;accountId&quot;: &quot;82ecb8cf-27e7-436e-bce1-8e5e5d5147ad&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -80,7 +66,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -103,6 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788388352353</updated>
+      <workItem from="1788421961135" duration="29000" />
+      <workItem from="1788422086385" duration="352000" />
     </task>
     <servers />
   </component>

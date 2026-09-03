@@ -379,7 +379,7 @@ public class Level1cs {
          */
 
         //Opgave 1.24
-
+        /*
         int score = 75;
         boolean passed;
         if (score >= 60) {
@@ -388,5 +388,6 @@ public class Level1cs {
         else
             passed = false;
         System.out.println("Passed: " + passed);
+         */
     }
 }
