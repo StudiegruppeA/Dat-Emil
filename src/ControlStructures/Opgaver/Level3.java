@@ -80,11 +80,57 @@ public class Level3 {
          */
 
         //Opgave 3.4
-/*
+        /*
         String command = "start";
+        switch (command) {
+            case "start":
+                System.out.println("Starting system...");
+                break;
+            case "stop":
+                System.out.println("Starting system...");
+                break;
+            case "pause":
+                System.out.println("Starting system...");
+                break;
+            default:
+                System.out.println("Unknown command");
+        }
+        */
 
-*/
+        //Opgave 3.5
+        /*
+        String command = "START";
+        switch (command) {
+            case "start":
+                System.out.println("Starting system...");
+                break;
+            case "stop":
+                System.out.println("Starting system...");
+                break;
+            case "pause":
+                System.out.println("Starting system...");
+                break;
+            default:
+                System.out.println("Unknown command");
+        }
+         */
 
-
+        //Opgave 3.6
+        /*
+        String color = "red";
+        switch (color) {
+            case "red":
+                System.out.println("Stop");
+                break;
+            case "yellow":
+                System.out.println("Slow down");
+                break;
+            case "green":
+                System.out.println("Go");
+                break;
+            default:
+                System.out.println("Type a traffic light color (red, yellow or green)");
+        }
+         */
     }
 }
