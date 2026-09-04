@@ -14,7 +14,6 @@ public class Level1 {
         }
          */
 
-
         // Opgave 1.2
         /*
         int temperature = 30;
