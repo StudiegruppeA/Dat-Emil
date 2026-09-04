@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38b54bae-e693-418f-b84f-a8c0a0db1052" name="Changes" comment="cs opgave level 2 added">
+    <list default="true" id="38b54bae-e693-418f-b84f-a8c0a0db1052" name="Changes" comment="cs opgave level 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ControlStructures/Opgaver/Level3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlStructures/Opgaver/Level3.java" afterDir="false" />
     </list>
@@ -55,6 +55,7 @@
     "Application.Level1.executor": "Run",
     "Application.Level1cs.executor": "Run",
     "Application.Level2.executor": "Run",
+    "Application.Level3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -134,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788538261819</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cs opgave level 3">
+      <option name="closed" value="true" />
+      <created>1788539359835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1788539359835</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +153,8 @@
     <MESSAGE value="ss" />
     <MESSAGE value="ssaa" />
     <MESSAGE value="cs opgave level 2 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="cs opgave level 2 added" />
+    <MESSAGE value="cs opgave level 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="cs opgave level 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
