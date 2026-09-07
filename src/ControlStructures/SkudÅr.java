@@ -11,54 +11,59 @@ public class SkudÅr {
         int year = input.nextInt();
         System.out.println("Indtast en måned (1 = Januar, 2 = Februar osv...)");
         int month = input.nextInt();
+        String måned;
+        boolean validMonth = true;
         switch (month) {
             case 1:
-                System.out.println("Vi er i Januar " + year);
+                måned = "Januar";
                 break;
             case 2:
-                System.out.println("Vi er i Februar " + year);
+                måned = "Febuar";
                 break;
             case 3:
-                System.out.println("Vi er i Marts " + year);
+                måned = "Marts";
                 break;
             case 4:
-                System.out.println("Vi er i April " + year);
+                måned = "April";
                 break;
             case 5:
-                System.out.println("Vi er i Maj " + year);
+                måned = "Maj";
                 break;
             case 6:
-                System.out.println("Vi er i Juni " + year);
+                måned = "Juni";
                 break;
             case 7:
-                System.out.println("Vi er i Juli " + year);
+                måned = "Juli";
                 break;
             case 8:
-                System.out.println("Vi er i August " + year);
+                måned = "August";
                 break;
             case 9:
-                System.out.println("Vi er i September " + year);
+                måned = "September";
                 break;
             case 10:
-                System.out.println("Vi er i Oktober " + year);
+                måned = "Oktober";
                 break;
             case 11:
-                System.out.println("Vi er i November " + year);
+                måned = "November";
                 break;
             case 12:
-                System.out.println("Vi er i December " + year);
+                måned = "December";
                 break;
             default:
-                System.out.println("Du skal indtaste et tal!");
+                måned = "Fejl";
+                validMonth = false;
+                System.out.println("Du skal indtaste et tal! Prøv igen!");
 
         }
 
-        if (year % 4 == 0) {
-            System.out.println(year + " er et skudår");
+        if (validMonth) {
+            System.out.println("Vi er i " + måned + " " + year);
+            if (year % 4 == 0) {
+                System.out.println(year + " er et skudår");
+            } else {
+                System.out.println(year + " er et normalt år");
+            }
         }
-        else {
-            System.out.println(year + " er et normalt år");
-        }
-
     }
 }
