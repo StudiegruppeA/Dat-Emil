@@ -59,7 +59,7 @@ public class SkudÅr {
 
         if (validMonth) {
             System.out.println("Vi er i " + måned + " " + year);
-            if (year % 4 == 0) {
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
                 System.out.println(year + " er et skudår");
             } else {
                 System.out.println(year + " er et normalt år");
