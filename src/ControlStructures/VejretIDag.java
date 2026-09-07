@@ -17,7 +17,7 @@ public class VejretIDag {
             System.out.println("Der er " + temperature + " grader.\nDer er frostvejr");
         }
         else {
-            System.out.println("Der er " + temperature + " grader.\nVejret er komfortabelt");
+            System.out.println("Der er " + temperature + " grader.\nDer er komfortabelt");
         }
 
     }
