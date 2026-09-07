@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38b54bae-e693-418f-b84f-a8c0a0db1052" name="Changes" comment="Skole opgaver">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControlStructures/SkudÅr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlStructures/SkudÅr.java" afterDir="false" />
-    </list>
+    <list default="true" id="38b54bae-e693-418f-b84f-a8c0a0db1052" name="Changes" comment="Skole opgaver" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +26,12 @@
     &quot;assignee&quot;: &quot;EmilMarinovic&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/EmilMarinovic/Dat.git&quot;,
-    &quot;accountId&quot;: &quot;82ecb8cf-27e7-436e-bce1-8e5e5d5147ad&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EmilMarinovic/Dat.git",
+    "accountId": "ceee0b19-209e-4da8-9b3d-9472a8855ef0"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
