@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b54bae-e693-418f-b84f-a8c0a0db1052" name="Changes" comment="cs opgave level 3">
+      <change afterPath="$PROJECT_DIR$/src/ControlStructures/MaxMinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlStructures/SkudÅr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlStructures/VejretIDag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControlStructures/Opgaver/Level3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlStructures/Opgaver/Level3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControlStructures/ControlStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlStructures/ControlStructures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/EmilMarinovic/Dat.git&quot;,
-    &quot;accountId&quot;: &quot;ceee0b19-209e-4da8-9b3d-9472a8855ef0&quot;
+    &quot;accountId&quot;: &quot;82ecb8cf-27e7-436e-bce1-8e5e5d5147ad&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -52,11 +55,16 @@
     "Application.ControlStructures.executor": "Run",
     "Application.ControlStructuress.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.Ifelse.executor": "Run",
     "Application.Level1.executor": "Run",
     "Application.Level1cs.executor": "Run",
     "Application.Level2.executor": "Run",
     "Application.Level3.executor": "Run",
+    "Application.MaxArray.executor": "Run",
+    "Application.SkudÅr.executor": "Run",
+    "Application.VejretIDag.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -71,7 +79,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,6 +103,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788388352353</updated>
+      <workItem from="1788605933421" duration="89000" />
+      <workItem from="1788606066296" duration="1380000" />
+      <workItem from="1788764889199" duration="6785000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <option name="closed" value="true" />
