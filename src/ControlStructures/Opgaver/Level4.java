@@ -230,10 +230,47 @@ public class Level4 {
          */
 
         //Opgave 4.20
+        /*
+        int sum = 0;
+        int count = 0;
+        int i = 1;
+        while (sum <= 100) {
+            sum += i;
+            count++;
+            i++;
+        }
+        System.out.println("Sum: " + sum);
+        System.out.println("Count: " + count);
+         */
 
+        //Opgave 4.21
+        /*
+        int number = 1;
+        int doublings = 0;
+        while (number <= 1000) {
+            number *= 2;
+            doublings++;
+        }
+        System.out.println("Number: " + number);
+        System.out.println("Doubles: " + doublings);
+         */
 
+        //Opgave 4.22
+        /*
+        int i = 0;
+        while (i <= 50 || i * i <= 100) {
+            i++;
+        }
+        System.out.println("When it stops: " + i);
+        System.out.println("When it stops squared: " + (i * i));
+         */
 
-
-
+        //Opgave 4.23
+        /*
+        int a = 0;
+        int b = 1;
+        int count = 0;
+        while ()
+         */
     }
 }

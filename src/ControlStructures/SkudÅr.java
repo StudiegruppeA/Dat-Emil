@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class SkudÅr {
 
     void main() {
-
+        /*
         Scanner input = new Scanner(System.in);
-        System.out.println("Indtast et årstal:");
+        System.out.println("Indtast venligst et årstal:");
         int year = input.nextInt();
-        System.out.println("Indtast en måned (1 = Januar, 2 = Februar osv...)");
+        System.out.println("Indtast venligst en måned (1 = Januar, 2 = Februar osv...)");
         int month = input.nextInt();
         String måned;
         boolean validMonth = true;
@@ -51,7 +51,7 @@ public class SkudÅr {
                 måned = "December";
                 break;
             default:
-                måned = "Fejl";
+                måned = "";
                 validMonth = false;
                 System.out.println("Du skal indtaste et tal! Prøv igen!");
 
@@ -64,6 +64,33 @@ public class SkudÅr {
             } else {
                 System.out.println(year + " er et normalt år");
             }
+        }
+         */
+
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Indtast venligst et årstal:");
+        int year = input.nextInt();
+        System.out.println("Indtast venligst en måned (1 = Januar, 2 = Februar osv...)");
+        int monthNumber = input.nextInt();
+        String[] months = {"januar", "februar", "marts", "april", "maj", "juni", "juli", "august", "september", "oktober", "november", "december"};
+        String monthName = months[monthNumber-1];
+        System.out.println("Vi er i " + monthName + " " + year);
+
+        boolean isLeapYear;
+
+        if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
+            isLeapYear = true;
+        }
+        else {
+            isLeapYear = false;
+        }
+
+        if (isLeapYear) {
+            System.out.println("Det er et skudår");
+        }
+        else {
+            System.out.println("Det er ikke et skudår");
         }
     }
 }
