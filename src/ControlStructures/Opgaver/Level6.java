@@ -260,18 +260,114 @@ public class Level6 {
          */
 
         // Opgave 6.19
+        /*
         int[] scores = {25, 50, 75, 100};
-        double[] percantages = new double[scores.length];
+        double[] percentages = new double[scores.length];
 
-        System.out.print("Scores in percantages: ");
         for (int i = 0; i < scores.length; i++) {
-            percantages[i] = scores[i] / 100;
-            System.out.print(percantages[i] + " ");
+            percentages[i] = scores[i] / 100.0;
         }
 
+        System.out.print("Percentages: ");
+        for (int i = 0; i < percentages.length; i++) {
+            System.out.print(percentages[i] + " ");
+        }
+         */
 
+        // Opgave 6.20
+        /*
+        int[] numbers = {2, 3, 4, 5};
 
+        System.out.print("Before: ");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
+        }
 
+        System.out.println();
 
+        System.out.print("After: ");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] * numbers[i] + " ");
+        }
+         */
+
+        // Opgave 6.21
+        /*
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            System.out.println(numbers[i]);
+        }
+         */
+
+        // Opgave 6.22
+        /*
+        int[] numbers = {5, 10, 15, 20};
+        int sum = 0;
+
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            sum += numbers[i];
+            System.out.println("The new sum is: " + sum);
+        }
+         */
+
+        // Opgave 6.23
+        /*
+        int[] numbers = {10, 20, 30, 20, 40};
+        int target = 20;
+        int foundIndex = -1;
+
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            if (numbers[i] == target) {
+                foundIndex = i;
+                break;
+            }
+        }
+
+        if (foundIndex != -1) {
+            System.out.println("The index of the last 20 is " + foundIndex);
+        }
+        else {
+            System.out.println("No index has " + target + " in it");
+        }
+         */
+
+        // Opgave 6.24
+        /*
+        int[] numbers = {1, 2, 3, 4, 5, 6};
+        int left = 0;
+        int right = numbers.length - 1;
+
+        while (left <= right) {
+            System.out.println(numbers[left]);
+            if (left != right) {
+                System.out.println(numbers[right]);
+            }
+            left++;
+            right--;
+        }
+         */
+
+        // Opgave 6.25
+        /*
+        int[] numbers = {5, 15, 25, 35, 45, 55};
+        int countFromStart = 0;
+        int countFromEnd = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] > 20) {
+                countFromStart++;
+            }
+        }
+
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            if (numbers[i] > 20) {
+                countFromEnd++;
+            }
+        }
+
+        System.out.println("From start: " + countFromStart);
+        System.out.println("From end: " + countFromEnd);
+         */
     }
 }
