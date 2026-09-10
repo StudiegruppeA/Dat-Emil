@@ -1,5 +1,6 @@
 package ControlStructures.Opgaver;
-
+// Concept: https://github.com/Dat1Cphbusiness/WorkingWithControlStructures/blob/main/concepts/level6.md
+// Assignment: https://github.com/Dat1Cphbusiness/WorkingWithControlStructures/blob/main/assignments/level6.md
 public class Level6 {
 
     void main () {
@@ -347,6 +348,7 @@ public class Level6 {
             right--;
         }
          */
+
 
         // Opgave 6.25
         /*

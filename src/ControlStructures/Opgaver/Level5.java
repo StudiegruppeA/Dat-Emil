@@ -1,5 +1,6 @@
 package ControlStructures.Opgaver;
-
+// Concepts: https://github.com/Dat1Cphbusiness/WorkingWithControlStructures/blob/main/concepts/level5.md
+// Assignment: https://github.com/Dat1Cphbusiness/WorkingWithControlStructures/blob/main/assignments/level5.md
 public class Level5 {
 
     void main () {
