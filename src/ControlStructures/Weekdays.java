@@ -1,4 +1,4 @@
-package ControlStructures.Opgaver;
+package ControlStructures;
 
 import java.util.Scanner;
 
