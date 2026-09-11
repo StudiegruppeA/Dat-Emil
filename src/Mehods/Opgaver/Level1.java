@@ -143,6 +143,75 @@ public class Level1 {
      */
 
     // Opgave 1.12
+    /*
+    void printPattern() {
+        System.out.println("* * *");
+        System.out.println("* * *");
+        System.out.println("* * *");
+    }
+
+    void main() {
+        printPattern();
+    }
+     */
+
+    // Opgave 1.13
+    /*
+    void printMenu() {
+        System.out.println("1. Start");
+        System.out.println("2. Settings");
+        System.out.println("3. Exit");
+    }
+
+    void main() {
+        printMenu();
+    }
+     */
+
+    // Opgave 1.14
+    /*
+    void printGreeting() {
+        System.out.println("Velkommen til skolen.");
+        System.out.println("Du går på Datamatiker studiet.");
+        System.out.println("Det er på EK Firskovvej.");
+    }
+
+    void main() {
+        printGreeting();
+    }
+     */
+
+    // Opgave 1.15
+    /*
+    void printSmile() {
+        System.out.println(":)");
+    }
+
+    void main() {
+        printSmile();
+        printSmile();
+        printSmile();
+        printSmile();
+        printSmile();
+    }
+     */
+
+    // Opgave 1.16
+    /*
+    void printSeperator() {
+        System.out.println("====================");
+    }
+
+    void main() {
+        printSeperator();
+        System.out.println("Welcome");
+        printSeperator();
+    }
+     */
+
+    // Opgave 1.17
+
+
 
 
 
