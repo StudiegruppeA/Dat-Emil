@@ -436,10 +436,201 @@ public class Level1 {
      */
 
     // Opgave 1.28
+    /*
+        void printListHeader() {
+            System.out.println("Shopping List:");
+        }
 
+        void printListFooter() {
+            System.out.println("---End of List ---");
+        }
 
+        void main() {
+            printListHeader();
+            System.out.println("Bread");
+            System.out.println("Milk");
+            System.out.println("Cereal");
+            printListFooter();
+        }
+     */
 
+    // Opgave 1.29
+    /*
+    void printGameTitle() {
+        System.out.println("CS 2");
+    }
 
+    void printInstructions() {
+        System.out.println("A game where the terrorist needs to plant the bomb and the counter-terrorists need to defuse the bomb");
+    }
 
+    void printControls() {
+        System.out.println("Shoot the enemy team and win the round");
+    }
 
+    void main() {
+        printGameTitle();
+        printInstructions();
+        printControls();
+    }
+     */
+
+    // Opgave 1.30
+    /*
+    String name = "Anna";
+    int age = 25;
+    String city = "Copenhagen";
+
+    void printName() {
+        System.out.println("Name: " + name);
+    }
+
+    void printAge() {
+        System.out.println("Age: " + age);
+    }
+
+    void printCity() {
+        System.out.println("City: " + city);
+    }
+
+    void main() {
+        printName();
+        printAge();
+        printCity();
+    }
+     */
+
+    // Opgave 1.33
+    /*
+    void printLine() {
+        System.out.println("-----");
+    }
+
+    void printBox() {
+        printLine();
+        System.out.println("Hej med dig");
+        printLine();
+    }
+
+    void main() {
+        printBox();
+    }
+     */
+
+    // Opgave 1.34
+    /*
+    void printStar() {
+        System.out.println("*");
+    }
+
+    void printThreeStars() {
+        printStar();
+        printStar();
+        printStar();
+    }
+
+    void main() {
+        printThreeStars();
+    }
+     */
+
+    // Opgave 1.41
+    /*
+    String appName = "Discord";
+    String version = "1.0";
+    String name = "Emil";
+
+    void printAppInfo() {
+        System.out.println("App name: " + appName);
+        System.out.println("Version: " + version);
+    }
+
+    void printDivider() {
+        System.out.println("===============");
+    }
+
+    void printWelcome() {
+        System.out.println("Welcome " + name);
+    }
+
+    void showStartup() {
+        printDivider();
+        printAppInfo();
+        printDivider();
+        printWelcome();
+    }
+
+    void main() {
+        showStartup();
+    }
+     */
+
+    // Opgave 1.48
+    /*
+    String date = "11.";
+    String month = "September";
+    int year = 2026;
+    String school = "EK Firskovvej";
+    String linje = "Datamatiker";
+    String mom = "Smilja";
+    String dad = "Krsta";
+    String brother1 = "Denis";
+    String sister1 = "Monika";
+    String brother2 = "Kristian";
+    String sister2 = "Jasmina";
+
+    void printDayInfoHeader() {
+        System.out.println("=== DAY INFO ===");
+    }
+
+    void printFooter() {
+        System.out.println("================");
+    }
+
+    void printDayInfo() {
+        printDayInfoHeader();
+        System.out.println("Today is " + date + " " + month + " " + year);
+        printFooter();
+    }
+
+    void printSchoolInfoHeader() {
+        System.out.println("=== SCHOOL INFO ===");
+    }
+
+    void printSchoolInfo() {
+        printSchoolInfoHeader();
+        System.out.println("School: " + school);
+        System.out.println("Category: " + linje);
+        printFooter();
+    }
+
+    void printFamilyInfoHeader() {
+        System.out.println("=== FAMILY INFO ===");
+    }
+
+    void printFamilyInfo() {
+        printFamilyInfoHeader();
+        System.out.println("Mom: " + month);
+        System.out.println("Dad: " + dad);
+        System.out.println("From moms side:");
+        System.out.println("Brother: " + brother1);
+        System.out.println("Sister: " + sister1);
+        System.out.println("From dads side:");
+        System.out.println("Brother: " + brother2);
+        System.out.println("Sister: " + sister2);
+        printFooter();
+    }
+
+    void printInfo() {
+        printDayInfo();
+        System.out.println();
+        printSchoolInfo();
+        System.out.println();
+        printFamilyInfo();
+    }
+
+    void main() {
+        printInfo();
+    }
+     */
 }

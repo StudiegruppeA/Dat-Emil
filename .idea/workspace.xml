@@ -29,12 +29,12 @@
     &quot;assignee&quot;: &quot;EmilMarinovic&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/StudiegruppeA/Dat-Emil.git&quot;,
-    &quot;accountId&quot;: &quot;82ecb8cf-27e7-436e-bce1-8e5e5d5147ad&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/StudiegruppeA/Dat-Emil.git",
+    "accountId": "ceee0b19-209e-4da8-9b3d-9472a8855ef0"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -47,46 +47,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ControlStructures.executor": "Run",
-    "Application.ControlStructuress.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.Ifelse.executor": "Run",
-    "Application.Level1.executor": "Run",
-    "Application.Level1cs.executor": "Run",
-    "Application.Level2.executor": "Run",
-    "Application.Level3.executor": "Run",
-    "Application.Level4.executor": "Run",
-    "Application.Level6.executor": "Run",
-    "Application.Level7.executor": "Run",
-    "Application.MaxArray.executor": "Run",
-    "Application.MaxMinArray.executor": "Run",
-    "Application.SkudÅr.executor": "Run",
-    "Application.VejretIDag.executor": "Run",
-    "Application.Weekdays.executor": "Run",
-    "Application.WhileLoop.executor": "Run",
-    "Application.Øvelse.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ControlStructures.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ControlStructuress.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ifelse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level1cs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxMinArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SkudÅr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VejretIDag.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Weekdays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Øvelse.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\EMILM\IdeaProjects\Dat" />
