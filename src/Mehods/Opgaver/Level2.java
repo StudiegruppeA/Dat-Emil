@@ -327,4 +327,300 @@ public class Level2 {
     }
      */
 
+    // Opgave 2.28
+    /*
+    void printGradeText(int score) {
+        if (score >= 90) {
+            System.out.println("Excellent");
+        }
+        else if (score >= 70) {
+            System.out.println("Good");
+        }
+        else if (score >= 50) {
+            System.out.println("Pass");
+        }
+        else {
+            System.out.println("Fail");
+        }
+    }
+
+    void main() {
+        printGradeText(67);
+    }
+     */
+
+    // Opgave 2.29
+    /*
+    void printActiveStatus(boolean active) {
+        if (active) {
+            System.out.println("Status: ACTIVE");
+        }
+
+        else {
+            System.out.println("Status: INACTIVE");
+        }
+    }
+
+    void main() {
+        printActiveStatus(true);
+        printActiveStatus(false);
+    }
+     */
+
+    // Opgave 2.30
+    /*
+    void printSign(int number) {
+        if (number < 0) {
+            System.out.println("Negative");
+        }
+        else if (number == 0) {
+            System.out.println("Zero");
+        }
+
+        else {
+            System.out.println("Positive");
+        }
+    }
+
+    void main() {
+        printSign(-10);
+        printSign(0);
+        printSign(50);
+    }
+     */
+
+    // Opgave 2.31
+    /*
+    void printLarger(int a, int b) {
+        if (a < b) {
+            System.out.println(b);
+        }
+        else if (a > b) {
+            System.out.println(a);
+        }
+        else {
+            System.out.println("They are equal");
+        }
+    }
+
+    void main() {
+        printLarger(2, 10);
+        printLarger(5, 2);
+        printLarger(20, 20);
+    }
+     */
+
+    // Opgave 2.32
+    /*
+    void printAbsolute(int number) {
+        if (number < 0) {
+            System.out.println(-number);
+        } else {
+            System.out.println(number);
+        }
+    }
+
+    void main() {
+        printAbsolute(10);
+        printAbsolute(-10);
+        printAbsolute(-3);
+        printAbsolute(0);
+    }
+     */
+
+    // Opgave 2.33
+    /*
+    void printStarts(int count) {
+        for (int i = 1; i <= count; i++) {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+
+    void main() {
+        printStarts(5);
+        printStarts(10);
+        printStarts(2);
+    }
+     */
+
+    // Opgave 2.34
+    /*
+    void printChar(char c, int count) {
+        for (int i = 1; i <= count; i++) {
+            System.out.print(c);
+        }
+        System.out.println();
+    }
+
+    void main() {
+        printChar('-', 10);
+        printChar('/', 5);
+        printChar('A', 3);
+        printChar('*', 20);
+    }
+     */
+
+    // Opgave 2.35
+    /*
+    void printCountdown(int start) {
+        for (int i = start; i > 0; i--) {
+            System.out.println(i);
+        }
+    }
+
+    void main() {
+        printCountdown(5);
+    }
+     */
+
+    // Opgave 2.36
+    /*
+    void printNumberRange(int from, int to) {
+        for (int i = from; i <= to; i++) {
+            System.out.println(i);
+        }
+    }
+
+    void main() {
+        printNumberRange(5, 9);
+    }
+     */
+
+    // Opgave 2.37
+    /*
+    void printRepeated(String message, int times) {
+        for (int i = 1; i <= times; i++) {
+            System.out.println(message);
+        }
+    }
+
+    void main() {
+        printRepeated("Hej", 2);
+    }
+     */
+
+    // Opgave 2.38
+    /*
+    void printSquare(int size) {
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    void main() {
+        printSquare(4);
+    }
+     */
+
+    // Opgave 2.39
+    /*
+    void printTriangle(int height) {
+        for (int i = 1; i <= height; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    void main() {
+        printTriangle(4);
+    }
+     */
+
+    // Opgave 2.40
+    /*
+    void printTableRow(int number) {
+        System.out.println("=== " + number + " TABELLEN ===");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " x " + i + " = " + number * i);
+        }
+    }
+
+    void main() {
+        printTableRow(10);
+    }
+     */
+
+    // Opgave 2.41
+    /*
+    void printDivider(int length) {
+        for (int i = 1; i <= length; i++) {
+            System.out.print("-");
+        }
+        System.out.println();
+    }
+
+    void printSection(String title, int width) {
+        printDivider(width);
+        System.out.println("--- " + title + " ---");
+        printDivider(width);
+    }
+
+    void main() {
+        printSection("CS 2", 12);
+    }
+     */
+
+    // Opgave 2.42
+    /*
+    void printValidAge(int age) {
+        if (age >= 0 && age <= 150) {
+            System.out.println(age);
+        }
+        else {
+            System.out.println("Invalid age");
+        }
+    }
+
+    void printAge(int age) {
+        printValidAge(age);
+    }
+
+    void main() {
+        printAge(-2);
+    }
+     */
+
+    // Opgave 2.43
+    /*
+    void printRectangleArea(int width, int height) {
+        System.out.println("Rectangle: " + width + " * " + height);
+        System.out.println("Area: " + width * height);
+    }
+
+    void main() {
+        printRectangleArea(10, 4);
+    }
+     */
+
+    // Opgave 2.44
+    /*
+    void printProgressBar(int percent) {
+        int filled = percent / 10;
+        int empty = 10 - filled;
+
+        System.out.print("[");
+
+        for (int i = 0; i < filled; i++) {
+            System.out.print("=");
+        }
+
+        for (int i = 0; i < empty; i++) {
+            System.out.print(" ");
+        }
+
+        System.out.print("] " + percent + "%");
+    }
+
+    void main() {
+        printProgressBar(90);
+    }
+    */
+
+
 }
