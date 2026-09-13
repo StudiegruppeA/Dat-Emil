@@ -622,5 +622,74 @@ public class Level2 {
     }
     */
 
+    // Opgave 2.45
+    /*
+    void printAllNumber(int[] numbers) {
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
 
+    void main() {
+        int[] myNumbers = {11, 25, 73, 32, 65};
+        printAllNumber(myNumbers);
+    }
+     */
+
+    // Opgave 2.46
+    /*
+    void printArrayWithLabel(String label, int[] numbers) {
+        System.out.println(label);
+        for (int number : numbers) {
+            System.out.println("  " + number);
+        }
+    }
+
+    void main() {
+        int[] myNumbers = {11, 25, 73, 32, 65};
+        printArrayWithLabel("Scores:", myNumbers);
+    }
+     */
+
+    // Opgave 2.47
+    /*
+    void printArraySum(int[] numbers) {
+        int sum = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+        System.out.println(sum);
+    }
+
+    void main() {
+        int[] myNumbers = {12, 54, 32, 87, 43, 12, 54};
+        printArraySum(myNumbers);
+    }
+     */
+
+    // Opgave 2.48
+    /*
+    void printHeader(String title) {
+        System.out.println("=== " + title + " ===");
+    }
+
+    void printField(String label, String value) {
+        System.out.println(label + ": " + value);
+    }
+
+    void printProfile(String name, int age, String city) {
+        printHeader("User Profile");
+        printField("Name: ", name);
+        printField("Age: ", "" + age);
+        printField("City: ", city);
+    }
+
+    void main() {
+        printProfile("Emil", 20, "Frederiksværk");
+        System.out.println();
+        printProfile("Ida", 20, "Hundested");
+        System.out.println();
+        printProfile("Jesper", 35, "Ølstykke");
+    }
+     */
 }
