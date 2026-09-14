@@ -466,5 +466,357 @@ public class Level3 {
      */
 
     // Opgave 3.34
+    /*
+        int getLength() {
+            return 10;
+        }
+
+        int getWidth() {
+            return 5;
+        }
+
+        int getArea() {
+            return getLength() * getWidth();
+        }
+
+        void main() {
+            System.out.println("Length: " + getArea());
+            System.out.println("Width: " + getWidth());
+            System.out.println("Area: " + getArea());
+        }
+     */
+
+    // Opgave 3.35
+    /*
+    int[] scores = {70, 80, 90};
+
+    int getSum() {
+        int sum = 0;
+        for (int i = 0; i < scores.length; i++) {
+            sum += scores[i];
+        }
+        return sum;
+    }
+
+    double getAverage() {
+        int sum = getSum();
+        double average = (double) sum / scores.length;
+        return average;
+    }
+
+    void main() {
+        System.out.println("The sum of the array is: " + getSum());
+        System.out.println("The average of the array is: " + getAverage());
+    }
+     */
+
+    // Opgave 3.36
+    /*
+    int getLength() {
+        return 15;
+    }
+
+    int getWidth() {
+        return 8;
+    }
+
+    int getPerimeter() {
+        return 2 * getLength() + 2 * getWidth();
+    }
+
+    void main() {
+        System.out.println("The perimeter is: " + getPerimeter());
+    }
+     */
+
+    // Opgave 3.37
+    /*
+    int score = 75;
+
+    char getGrade() {
+        if (score >= 90) {
+            return 'A';
+        }
+        else if (score >= 80) {
+            return 'B';
+        }
+        else if (score >= 70) {
+            return 'C';
+        }
+        else {
+            return 'F';
+        }
+
+
+    }
+
+    void main() {
+        System.out.println("The score " + score + " gives you the grade " + getGrade());
+    }
+     */
+
+    // Opgave 3.38
+    /*
+    boolean online = true;
+
+    String getStatus() {
+        if (online) {
+            return "Online";
+        }
+        else {
+            return "Offline";
+        }
+    }
+
+    void main() {
+        System.out.println("Status: " + getStatus());
+    }
+     */
+
+    // Opgave 3.39
+    /*
+    int a = 15;
+    int b = 23;
+
+    int getMax() {
+        if (a > b) {
+            return a;
+        }
+        else {
+            return b;
+        }
+    }
+
+    void main() {
+        System.out.println("The biggest number is: " + getMax());
+    }
+     */
+
+    // Opgave 3.40
+    /*
+    int number = -42;
+
+    int getAbsolute() {
+        if (number < 0) {
+            return -number;
+        }
+        else {
+            return number;
+        }
+    }
+
+    void main() {
+        System.out.println("The absolute number is: " + getAbsolute());
+    }
+     */
+
+    // Opgave 3.41
+    /*
+    double itemPrice = 200.0;
+
+    double getPrice() {
+        return itemPrice;
+    }
+
+    double getTaxAmount() {
+        return itemPrice / 100 * 25;
+    }
+
+    double getTotal() {
+        return getPrice() + getTaxAmount();
+    }
+
+    void main() {
+        System.out.println("The total price is: " + getTotal());
+    }
+     */
+
+    // Opgave 3.42
+    /*
+    int[] data = {12, 45, 23, 67, 34};
+
+    int getCount() {
+        return data.length;
+    }
+
+    int getSum() {
+        int sum = 0;
+        for (int i = 0; i < data.length; i++) {
+            sum += data[i];
+        }
+        return sum;
+    }
+
+    double getAverage() {
+        return (double) getSum() / getCount();
+    }
+
+    void main() {
+        System.out.println("The count is: " + getCount());
+        System.out.println("The sum is: " + getSum());
+        System.out.println("The average is: " + getAverage());
+    }
+     */
+
+    // Opgave 3.43
+    /*
+    int[] data = {12, 45, 23, 67, 34};
+
+    int getMax() {
+        int max = data[0];
+        for (int i = 0; i < data.length; i++) {
+            if (max < data[i]) {
+                max = data[i];
+            }
+        }
+        return max;
+    }
+
+    void main() {
+        System.out.println("The biggest number in the array is: " + getMax());
+    }
+     */
+
+    // Opgave 3.44
+    /*
+    String playerName = "Hero";
+    int health = 75;
+    int maxHealth = 100;
+
+    String getName() {
+        return playerName;
+    }
+
+    int getHealth() {
+        return health;
+    }
+
+    int getHealthPercent() {
+        return (maxHealth / 100) * health;
+    }
+
+    boolean isAlive() {
+        return health > 0;
+    }
+
+    void main() {
+        System.out.println("Name: " + getName());
+        System.out.println("Health: " + getHealth() + "/" + maxHealth + " (" + getHealthPercent() + "%)");
+        System.out.println("Is alive: " + isAlive());
+    }
+     */
+
+    // Opgave 3.46
+    /*
+        int dayNumber = 6;
+
+        int getDayNumber() {
+            return dayNumber;
+        }
+
+        boolean isWeekend() {
+            return dayNumber == 6 || dayNumber == 7;
+        }
+
+        String getDayType() {
+            switch (dayNumber) {
+                case 1, 2, 3, 4, 5 -> {
+                    return "Weekday";
+                }
+                case 6, 7 -> {
+                    return "Weekend";
+                }
+                default -> {
+                    return "Invalid day";
+                }
+            }
+        }
+
+        void main() {
+            System.out.println("Number " + dayNumber + " is " + getDayType());
+        }
+     */
+
+    // Opgave 3.47
+    /*
+    double tempCelsius = 28.5;
+
+    double getCelsius() {
+        return tempCelsius;
+    }
+
+    double getFahrenheit() {
+        double fahrenheit = tempCelsius * 9/5 + 32;
+        return fahrenheit;
+    }
+
+    boolean isHot() {
+        return tempCelsius > 25;
+    }
+
+    boolean isFreezing() {
+        return tempCelsius < 0;
+    }
+
+    String getDescription() {
+        if (isHot()) {
+            return "Hot";
+        }
+        else if (isFreezing()) {
+            return "Freezing";
+        }
+        else if (tempCelsius < 10) {
+            return "Cold";
+        }
+        else {
+            return "Nice";
+        }
+    }
+
+    void main() {
+        System.out.println("Celsius: " + tempCelsius);
+        System.out.println("Fahrenheit: " + getFahrenheit());
+        System.out.println("Description: " + getDescription());
+    }
+     */
+
+    // Opgave 3.48
+    /*
+    String accountHolder = "Anna";
+    double balance = 1500.50;
+    double withdrawLimit = 500.0;
+
+    String getHolder() {
+        return accountHolder;
+    }
+
+    double getBalance() {
+        return balance;
+    }
+
+    double getWithdrawLimit() {
+        return withdrawLimit;
+    }
+
+    boolean isRich() {
+        return balance > 10000;
+    }
+
+    boolean canWithdraw() {
+        return balance >= withdrawLimit;
+    }
+
+    void main() {
+        System.out.println("Holder: " + getHolder());
+        System.out.println("Balance: " + getBalance());
+        System.out.println("Withdraw limit: " + getWithdrawLimit());
+        System.out.println("Is rich: " + isRich());
+        System.out.println("Can withdraw: " + canWithdraw());
+    }
+     */
+
+
+
+
 
 }
