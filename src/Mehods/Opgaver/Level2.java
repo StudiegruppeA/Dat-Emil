@@ -620,7 +620,7 @@ public class Level2 {
     void main() {
         printProgressBar(90);
     }
-    */
+     */
 
 
 }
